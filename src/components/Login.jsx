@@ -45,7 +45,7 @@ const Login = () => {
           <h1 className="text-center text-lg font-bold">Login</h1>
           <div className="mb-4">
             <label className="block text-gray-700 text-sm font-bold mb-2">
-              Email
+              Endereço de E-mail
             </label>
             <input
               className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
@@ -56,7 +56,7 @@ const Login = () => {
           </div>
           <div className="mb-6">
             <label className="block text-gray-700 text-sm font-bold mb-2">
-              Password
+              Senha
             </label>
             <input
               className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline"
@@ -64,19 +64,19 @@ const Login = () => {
               type="password"
               placeholder="******************"
             />
-            <p className="text-sm">
-              Nao possui uma conta?
+            <p className="text-sm text-center">
+              Não possui uma conta?
               <Link
-                className="p-2 text-red-500 hover:text-red-700 "
+                className="p-1 text-red-500 hover:text-red-700 "
                 to="/register"
               >
-                Registrar
+                Registre
               </Link>
             </p>
           </div>
           <div className="flex items-center justify-between">
-            <button className="bg-blue-500 content-center hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">
-              Sign In
+            <button className=" m-auto bg-blue-500 content-center hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">
+              Entrar
             </button>
           </div>
         </form>
@@ -85,11 +85,8 @@ const Login = () => {
           className=" gap-2 text-white bg-gray-700 w-full font-medium rounded-lg flex align-middle p-4"
         >
           <FcGoogle className="text-2xl" />
-          Sign in with Google
+          Entre com o Google
         </button>
-        <p className="text-center text-gray-500 text-xs">
-          &copy;2020 Acme Corp. All rights reserved.
-        </p>
       </div>
     </div>
   );

@@ -20,7 +20,7 @@ const Nav = () => {
   };
   return (
     <div className="bg-gray-100">
-      <nav className="flex pl-64 pr-64 justify-between items-center w-[92%]  mx-auto">
+      <nav className="flex xl:pl-64 xl:pr-64 justify-between items-center w-[92%]  mx-auto">
         <div className="flex p-2">
           {user.emailVerified && (
             <>
@@ -50,9 +50,9 @@ const Nav = () => {
         <div className="flex items-center gap-6">
           <button
             onClick={handleLogout}
-            className="bg-[#a6c1ee] text-white px-5 py-2 rounded-xl hover:bg-[#87acec]"
+            className="bg-[#a6c1ee] text-white px-5 py-2 rounded-xl hover:bg-[#4b7aca]"
           >
-            Logout
+            Sair
           </button>
         </div>
       </nav>
