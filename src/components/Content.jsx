@@ -84,7 +84,7 @@ const Content = () => {
         <form onSubmit={handleSubmit} className="flex items-center mb-3">
           <input
             type="text"
-            className="w-11/12  sm:w bg-gray-700 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-red-500 focus:border-blue-500 block pl-3 p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white"
+            className="w-11/12  sm:w bg-gray-700 border border-gray-300 text-white text-sm rounded-lg focus:ring-red-500 focus:border-blue-500 block pl-3 p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white"
             onChange={(e) => setTodo(e.target.value)}
             placeholder="Qual é a sua proxima tarefa?"
             value={todo}
