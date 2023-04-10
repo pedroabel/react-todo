@@ -3,7 +3,7 @@ O objetivo deste projeto pessoal foi desenvolver uma aplicação web de lista de
 
 
 ## 💻 - Funcionalidades 
-- Cadastro e autenticação de usuarios (Firebase)
+- Cadastro e autenticação de usuários (Firebase)
 - CRUD de tarefas
 
 
